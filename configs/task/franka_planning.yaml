@@ -31,8 +31,8 @@ dataset:
   use_color: false
   use_normal: false
   is_downsample: true
-  data_dir: /home/wangzan/Data/SceneDiffuser/grasp_and_armmotion/datasets/FK2PlanDataset
-  data_dir_slurm: /home/wangzan/Data/SceneDiffuser/grasp_and_armmotion/datasets/FK2PlanDataset
+  data_dir: /home/carvalho/Projects/Others/Scene-Diffuser/data/FK2PlanDataset
+  data_dir_slurm: /home/carvalho/Projects/Others/Scene-Diffuser/data/FK2PlanDataset
 
   train_transforms: ['NumpyToTensorPath']
   test_transforms: ['NumpyToTensorPath']

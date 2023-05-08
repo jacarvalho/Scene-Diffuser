@@ -61,6 +61,10 @@ We introduce SceneDiffuser, a conditional generative model for 3D scene understa
 2. Install dependent libraries with `pip`.
 
     ```bash
+    conda install libffi==3.3
+    ```
+
+    ```bash
     pip install -r pre-requirements.txt
     pip install -r requirements.txt
     ```
